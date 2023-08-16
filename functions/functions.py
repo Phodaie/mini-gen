@@ -10,12 +10,6 @@ def show_x():
 
 project_dir = "./generated"
 
-def show_project_dir():
-    print(project_dir)
-
-def set_project_dir(dir:str):
-    project_dir = dir
-    create_directory_if_not_exists(project_dir)
 
 def debug_args(*args_to_print):
     GREEN = '\033[92m'  # Green color
